@@ -126,10 +126,11 @@ int main(int argc, char *argv[])
         }
         
         Info<< "Total input:" << cellii.size() <<"\t" << "Unique: " << spiralcells.size() << nl << endl;
-        for (int i=0;i<spiralcells.size();i++)
+        
+        /*for (int i=0;i<spiralcells.size();i++)
         {
             cout<<spiralcells[i]<<"\t";   
-        }
+        }*/
             
         int spiCell=spiralcells.size();
         int duration=totalSteps/spiCell;
